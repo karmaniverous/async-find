@@ -1,10 +1,17 @@
-# React Component NPM Package Template
+# asyncFind
 
-## Why?
-
-Setting up an NPM package to deliver a React component requires a lot of
-scaffolding. This template allows you to get started right away writing ES6
-component code and writing tests leveraging Mocha, Chai, and the React Testing
-Framework.
-
-Have fun!
+```
+/**
+ * Step through a array of input values. Pass each input value, through an
+ * array of async predicate functions, passing the output of each predicate
+ * as the input of the next, until either the predicates are exhausted or one
+ * of them returns an error or undefined.
+ *
+ * @async
+ * @function asyncFind
+ * @param {Array} arr - An array of values.
+ * @param {Array} predicates - An array of async functions.
+ * @return {Promise} A Promise resolving to an array containing the first input
+ * value that survived all predicates, and its resulting output value.
+ */
+```

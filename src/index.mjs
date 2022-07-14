@@ -1,1 +1,1 @@
-export { default as Component } from './Component';
+export { default as asyncFind } from './asyncFind.mjs';
