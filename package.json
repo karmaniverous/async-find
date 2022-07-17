@@ -1,6 +1,6 @@
 {
   "name": "@karmaniverous/async-find",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test values against a cascade of async functions to find the first one that passes all of them.",
   "main": "lib/index.js",
   "scripts": {
