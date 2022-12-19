@@ -1,5 +1,3 @@
-# async-find
-
 # API Documentation
 
 <a name="asyncFind"></a>
@@ -15,8 +13,3 @@ Step through a array of input values. Pass each input value, through anarray of
 | arr | <code>Array</code> | An array of values. |
 | predicates | <code>Array</code> | An array of async functions. |
 
-
----
-
-See more great templates and other tools on
-[my GitHub Profile](https://github.com/karmaniverous)!
