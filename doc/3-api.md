@@ -1,5 +1,9 @@
 # API Documentation
 
+```js
+import asyncFind from '@karmaniverous/async-find`;
+```
+
 <a name="asyncFind"></a>
 
 ## asyncFind(arr, predicates) ⇒ <code>Array</code>
