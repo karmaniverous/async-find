@@ -8,7 +8,7 @@ import chai from 'chai';
 const should = chai.should();
 
 // subject imports
-import asyncFind from '../src/asyncFind.mjs';
+import asyncFind from './asyncFind.mjs';
 
 // async predicates
 const halfString = async (s) => {
@@ -27,12 +27,12 @@ const errorOnE = async (s) => {
   else return s;
 };
 
-const returnsUndefined = async (s) => {
+const returnsUndefined = async () => {
   await setTimeout(100);
 };
 
-describe('asyncFind', async () => {
-  it('input 1 passes all predicates', async () => {
+describe('asyncFind', function () {
+  it('input 1 passes all predicates', async function () {
     const [input, output] = await asyncFind(
       ['abc', 'def'],
       [tripleString, halfString, errorOnE]
@@ -42,7 +42,7 @@ describe('asyncFind', async () => {
     output.should.equal('abca');
   });
 
-  it('input 2 passes all predicates', async () => {
+  it('input 2 passes all predicates', async function () {
     const [input, output] = await asyncFind(
       ['efg', 'abc'],
       [halfString, tripleString, errorOnE]
@@ -52,7 +52,7 @@ describe('asyncFind', async () => {
     output.should.equal('aaa');
   });
 
-  it('every input fails', async () => {
+  it('every input fails', async function () {
     const [input, output] = await asyncFind(
       ['efg', 'abc'],
       [halfString, tripleString, errorOnE, returnsUndefined]
