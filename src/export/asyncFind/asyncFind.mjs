@@ -6,6 +6,7 @@
  *
  * @async
  * @function asyncFind
+ *
  * @param {Array} arr - An array of values.
  * @param {Array} predicates - An array of async functions.
  * @returns {Array} An array containing the first input value that survived all
