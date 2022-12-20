@@ -1,7 +1,7 @@
 # API Documentation
 
 ```js
-import asyncFind from '@karmaniverous/async-find`;
+import { asyncFind } from '@karmaniverous/async-find`;
 ```
 
 <a name="asyncFind"></a>
