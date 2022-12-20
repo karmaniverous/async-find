@@ -1,3 +1,1 @@
-import asyncFind from './asyncFind/asyncFind.mjs';
-
-export default asyncFind;
+export { asyncFind } from './asyncFind/asyncFind.mjs';

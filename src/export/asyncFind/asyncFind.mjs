@@ -11,7 +11,7 @@
  * @returns {Array} An array containing the first input value that survived all
  * predicates, and its resulting output value.
  */
-const asyncFind = async (arr, predicates) => {
+export const asyncFind = async (arr, predicates) => {
   if (!Array.isArray(arr)) arr = [arr];
   if (!Array.isArray(predicates)) predicates = [predicates];
 
@@ -33,5 +33,3 @@ const asyncFind = async (arr, predicates) => {
 
   return [undefined, undefined];
 };
-
-export default asyncFind;
