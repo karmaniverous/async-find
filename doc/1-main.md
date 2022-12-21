@@ -1,3 +1,5 @@
 # async-find
 
-See [tests](/src/export/asyncFind/asyncFind.test.mjs) for examples of usage!
+See
+[tests](https://github.com/karmaniverous/async-find/blob/main/lib/asyncFind/asyncFind.test.js)
+for examples of usage!
