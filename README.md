@@ -10,13 +10,6 @@ for examples of usage!
 import { asyncFind } from '@karmaniverous/async-find`;
 ```
 
-## Constants
-
-<dl>
-<dt><a href="#PACKAGE_INFO">PACKAGE_INFO</a> : <code><a href="#PackageInfo">PackageInfo</a></code></dt>
-<dd></dd>
-</dl>
-
 ## Functions
 
 <dl>
@@ -34,14 +27,8 @@ of them returns a falsy result.</p>
 <dt><a href="#Predicate">Predicate</a> ⇒ <code>*</code></dt>
 <dd><p>async predicate function callback</p>
 </dd>
-<dt><a href="#PackageInfo">PackageInfo</a> : <code>Object</code></dt>
-<dd></dd>
 </dl>
 
-<a name="PACKAGE_INFO"></a>
-
-## PACKAGE\_INFO : [<code>PackageInfo</code>](#PackageInfo)
-**Kind**: global constant  
 <a name="asyncFind"></a>
 
 ## asyncFind(values, predicates) ⇒ <code>Array</code>
@@ -66,16 +53,6 @@ async predicate function callback
 | Param | Type | Description |
 | --- | --- | --- |
 | [value] | <code>\*</code> | value to be tested |
-
-<a name="PackageInfo"></a>
-
-## PackageInfo : <code>Object</code>
-**Kind**: global typedef  
-**Properties**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| version | <code>string</code> | package version |
 
 
 ---
