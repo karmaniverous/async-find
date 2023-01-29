@@ -1,6 +1,6 @@
 {
   "name": "@karmaniverous/async-find",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "publishConfig": {
     "access": "public"
   },
