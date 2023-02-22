@@ -28,12 +28,14 @@
     "@babel/register": "^7.21.0",
     "@karmaniverous/get-dotenv": "^0.2.3",
     "@types/node": "^18.14.0",
+    "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-module-extension": "^0.1.3",
     "chai": "^4.3.7",
     "concat-md": "^0.5.1",
     "eslint": "^8.34.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-mocha": "^10.1.0",
+    "jsdoc-to-markdown": "^8.0.0",
     "mocha": "^10.2.0",
     "prettier": "^2.8.4",
     "release-it": "^15.6.0"
@@ -71,9 +73,5 @@
     "package": "npm run lint && npm run test && npm run build && npm run doc",
     "release": "npm run package && getdotenv -- release-it"
   },
-  "type": "module",
-  "dependencies": {
-    "babel-plugin-lodash": "^3.3.4",
-    "jsdoc-to-markdown": "^8.0.0"
-  }
+  "type": "module"
 }
